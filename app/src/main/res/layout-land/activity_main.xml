@@ -9,7 +9,7 @@
         android:id="@+id/nestedScrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:padding="16dp"
+        android:padding="12dp"
         android:clipToPadding="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,23 +33,6 @@
                    android:text=""
                    style="@style/home_button_styles" />
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <Button
-                    android:text="Bottom navigation Bar"
-                    android:onClick="bottomNavigationBar"
-                    style="@style/home_button_styles" />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                <Button
                    android:text=""
                    style="@style/home_button_styles" />
@@ -57,33 +40,8 @@
                    android:text=""
                    style="@style/home_button_styles" />
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-               <Button
-                   android:text=""
-                   style="@style/home_button_styles" />
-                <Button
-                   android:text=""
-                   style="@style/home_button_styles" />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-               <Button
-                   android:text="Drawer Navigation View"
-                   android:onClick="drawerNavigationView"
-                   style="@style/home_button_styles" />
-
-
-            </LinearLayout>
-
+           
+        </LinearLayout>
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
