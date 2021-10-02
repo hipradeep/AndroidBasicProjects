@@ -4,19 +4,35 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/item_bg.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/nav_menu_bg.xml" value="0.2324074074074074" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout-land/activity_main.xml" value="0.12083333333333333" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_bottom_navigation_bar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_bottom_navigation_view.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_bottom_navigation_with_nav_controller.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_bottom_navigation_with_nav_host_fragments.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_custom_drawer_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_drawer_navigation_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_drawer_navigation_view.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_drawer_with_nav_controller.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_main.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_notifications.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_type_bottom_navigation_view.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_type_drawer_navigation_bar.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_view_pager.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_view_pager2.xml" value="0.22962962962962963" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_view_pager_with_recycler_adpater.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/activity_view_pagers_activty.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/app_bar_main.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/app_bar_main_custom.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/content_main.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/fragment_one.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/fragment_three.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/fragment_two.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/item_viewpager.xml" value="0.14895833333333333" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/item_viewpaget.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout/side_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />
       </map>
     </option>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:choiceMode="singleChoice">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/centerInside"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#4FC3F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/civ_side_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_park_nav"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_side_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start"
+            android:text=" "
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/civ_side_profile"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:includeFontPadding="false"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_side_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/civ_side_profile"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+
+        android:layout_height="0dp"
+        android:layout_below="@id/centerInside"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ll_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/centerInside">
+
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            style="@style/side_menu_list_style">
+
+            <ImageView
+                style="@style/nav_menu_icon_style"
+                android:padding="6dp"
+                android:src="@drawable/ic_home_nav" />
+
+            <TextView
+                style="@style/nav_menu_text_style"
+                android:text="Home" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/ll_park"
+            style="@style/side_menu_list_style">
+
+            <ImageView
+                style="@style/nav_menu_icon_style"
+                android:padding="6dp"
+                android:src="@drawable/ic_park_nav" />
+
+            <TextView
+                style="@style/nav_menu_text_style"
+                android:text="Park" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/ll_setting"
+            style="@style/side_menu_list_style">
+
+            <ImageView
+                style="@style/nav_menu_icon_style"
+                android:padding="6dp"
+                android:src="@drawable/ic_setting_nav" />
+
+            <TextView
+                style="@style/nav_menu_text_style"
+                android:text="Settings" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/ll_notification"
+            style="@style/side_menu_list_style">
+
+            <ImageView
+                style="@style/nav_menu_icon_style"
+                android:padding="6dp"
+                android:src="@drawable/ic_notification_nav" />
+
+            <TextView
+                style="@style/nav_menu_text_style"
+                android:text="Notification" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/listDivider" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/ll_logout"
+        style="@style/side_menu_list_style"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!--  <ImageView
+              style="@style/nav_menu_icon_style"
+              android:padding="6dp"
+              android:src="@drawable/ic_notification_nav" />-->
+
+        <TextView
+            style="@style/nav_menu_text_style"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Logout" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
