@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.hipradeep.learnandroid.bottomnavigationbar.TypeBottomNavigationViewActivity;
-import com.hipradeep.learnandroid.drawernavigations.DrawerNavigationBarActivity;
+import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActivity;
 import com.hipradeep.learnandroid.viewpagers.ViewPager2Activity;
 import com.hipradeep.learnandroid.viewpagers.ViewPagerWithRecyclerAdapterActivity;
 import com.hipradeep.learnandroid.viewpagers.TypeViewPagerActivity;
@@ -38,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void drawerNavigationView(View view) {
-        startActivity(new Intent(this, DrawerNavigationBarActivity.class ));
+        startActivity(new Intent(this, TypeDrawerNavigationViewActivity.class ));
     }
 }

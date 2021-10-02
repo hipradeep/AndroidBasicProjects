@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.hipradeep.learnandroid.R;
-import com.hipradeep.learnandroid.viewpagers.ViewPagerActivity;
 
 public class TypeBottomNavigationViewActivity extends AppCompatActivity {
 
@@ -26,6 +25,10 @@ public class TypeBottomNavigationViewActivity extends AppCompatActivity {
 
     public void customBNV(View view) {
         startActivity(new Intent(this, CustomBottomNavigationActivity.class ));
+    }
+
+    public void bottomNavigationWithNavHostFragment(View view) {
+        startActivity(new Intent(this, BottomNavigationWithNavHostFragmentsActivity.class ));
     }
 
     @Override

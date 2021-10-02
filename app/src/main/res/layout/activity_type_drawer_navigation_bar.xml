@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bottomnavigationbar.TypeBottomNavigationViewActivity">
+    tools:context=".drawernavigations.TypeDrawerNavigationViewActivity">
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
@@ -16,39 +16,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <Button
-            android:text="Bottom Navigation View"
-            android:onClick="bottomNavigationView"
-            android:layout_margin="8dp"
-            android:layout_width="336dp"
-            style="@style/text_button_style" />
+    <Button
+        android:text="Drawer Navigation View"
+        android:onClick="drawerNavigationView"
+        android:layout_margin="8dp"
+        android:layout_width="336dp"
+        style="@style/text_button_style" />
 
         <Button
-            android:text="Bottom Navigation With NavHostFragment"
-            android:onClick="bottomNavigationWithNavHostFragment"
+            android:text="WithNavController"
+            android:onClick="drawerWithNavController"
             android:layout_margin="8dp"
             android:layout_width="336dp"
-            style="@style/text_button_style" />
+            style="@style/text_button_style"/>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:visibility="gone"
-            android:layout_height="wrap_content">
-            <Button
-                android:text="Custom"
-                android:onClick="customBNV"
-
-                style="@style/text_button_style" />
-            <Button
-                style="@style/text_button_style"
-                android:text=""/>
-        </LinearLayout>
-
-
-
-
+        <Button
+            android:text="Custom Navigation View"
+            android:onClick="customNavigationView"
+            android:layout_margin="8dp"
+            android:layout_width="336dp"
+            style="@style/text_button_style"/>
     </LinearLayout>
-    
 
 </androidx.constraintlayout.widget.ConstraintLayout>

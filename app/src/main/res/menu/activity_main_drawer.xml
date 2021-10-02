@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_one"
+            android:icon="@drawable/ic_home_nav"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_two"
+            android:icon="@drawable/ic_park_nav"
+            android:title="Park" />
+        <item
+            android:id="@+id/nav_three"
+            android:icon="@drawable/ic_setting_nav"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification_nav"
+            android:title="Notification" />
+        <!--  android:onClick="onOpenNotification"-->
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="Privacy policy" />
+        </menu>
+    </item>
+
+</menu>
