@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_navigation_with_nav_host_fragments.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_drawer_navigation_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_main.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_drawer_navigation_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/item_bg.xml" value="0.2462962962962963" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/nav_menu_bg.xml" value="0.2324074074074074" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout-land/activity_main.xml" value="0.12083333333333333" />

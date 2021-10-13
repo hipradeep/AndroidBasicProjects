@@ -30,7 +30,8 @@
                    android:onClick="viewPagers"
                    style="@style/home_button_styles" />
                 <Button
-                   android:text=""
+                   android:text="Bottom Sheets"
+                    android:onClick="bottomSheetExample"
                    style="@style/home_button_styles" />
 
             </LinearLayout>

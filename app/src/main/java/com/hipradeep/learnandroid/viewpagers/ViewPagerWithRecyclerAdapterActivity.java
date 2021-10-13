@@ -25,6 +25,7 @@ public class ViewPagerWithRecyclerAdapterActivity extends AppCompatActivity {
 
         radioGroup=findViewById(R.id.radioGroup);
         viewpager=findViewById(R.id.viewpager);
+
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
@@ -42,7 +43,7 @@ public class ViewPagerWithRecyclerAdapterActivity extends AppCompatActivity {
         });
         
         
-        viewpager.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
+      //  viewpager.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
         ViewPagerRecyclerAdapter adapter=new ViewPagerRecyclerAdapter(this);
         viewpager.setAdapter(adapter);
 

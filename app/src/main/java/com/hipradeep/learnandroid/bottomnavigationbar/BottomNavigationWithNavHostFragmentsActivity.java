@@ -27,6 +27,7 @@ public class BottomNavigationWithNavHostFragmentsActivity extends AppCompatActiv
                 R.id.nav_one, R.id.nav_two, R.id.nav_three)  //id must same in both 'host' as well as 'menu'
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         BottomNavigationView bottomNav = findViewById(R.id.bottomNavigationView);
         NavigationUI.setupWithNavController(bottomNav, navController);

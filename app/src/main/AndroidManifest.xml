@@ -8,7 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ViewPagerExample">
+        android:theme="@style/Theme.LearnAndroid">
+        <activity
+            android:name=".bottomsheet.BottomSheetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".bottomsheet.TypeBottomSheetActivity"
+            android:exported="true" />
         <activity
             android:name=".bottomnavigationbar.BottomNavigationWithNavHostFragmentsActivity"
             android:exported="true" />
@@ -18,15 +24,15 @@
         <activity
             android:name=".drawernavigations.DrawerWithNavControllerActivity"
             android:exported="true"
-            android:theme="@style/Theme.ViewPagerExample.NoActionBar" />
+            android:theme="@style/Theme.LearnAndroid.NoActionBar" />
         <activity
             android:name=".drawernavigations.CustomDrawerNavigationActivity"
             android:exported="true"
-            android:theme="@style/Theme.ViewPagerExample.NoActionBar" />
+            android:theme="@style/Theme.LearnAndroid.NoActionBar" />
         <activity
             android:name=".drawernavigations.DrawerNavigationViewActivity"
             android:exported="true"
-            android:theme="@style/Theme.ViewPagerExample.NoActionBar" />
+            android:theme="@style/Theme.LearnAndroid.NoActionBar" />
         <activity
             android:name=".bottomnavigationbar.CustomBottomNavigationActivity"
             android:exported="true" />

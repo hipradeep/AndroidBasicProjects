@@ -27,6 +27,7 @@ public class ViewPager2Activity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabs);
         ViewPager2Adapter adapter = new ViewPager2Adapter(this);
         myViewPager2.setAdapter(adapter);
+
         String [] tabTitles={"One","Two","Three"};
         new TabLayoutMediator(tabLayout, myViewPager2,
                 new TabLayoutMediator.TabConfigurationStrategy() {
