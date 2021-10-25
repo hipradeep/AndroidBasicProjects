@@ -9,6 +9,7 @@ import android.view.View;
 import com.hipradeep.learnandroid.bottomnavigationbar.TypeBottomNavigationViewActivity;
 import com.hipradeep.learnandroid.bottomsheet.TypeBottomSheetActivity;
 import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActivity;
+import com.hipradeep.learnandroid.nestedfragments.NestedFragmentsActivity;
 import com.hipradeep.learnandroid.viewpagers.ViewPager2Activity;
 import com.hipradeep.learnandroid.viewpagers.ViewPagerWithRecyclerAdapterActivity;
 import com.hipradeep.learnandroid.viewpagers.TypeViewPagerActivity;
@@ -45,5 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void bottomSheetExample(View view) {
         startActivity(new Intent(this, TypeBottomSheetActivity.class ));
+    }
+
+    public void nestedFragments(View view) {
+        startActivity(new Intent(this, NestedFragmentsActivity.class ));
     }
 }

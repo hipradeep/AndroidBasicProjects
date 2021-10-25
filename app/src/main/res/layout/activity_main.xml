@@ -52,7 +52,8 @@
                 android:orientation="horizontal">
 
                <Button
-                   android:text=""
+                   android:text="NestedFragments"
+                   android:onClick="nestedFragments"
                    style="@style/home_button_styles" />
                 <Button
                    android:text=""
