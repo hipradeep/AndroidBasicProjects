@@ -1,4 +1,4 @@
-package com.hipradeep.learnandroid.selectandcropimage;
+package com.hipradeep.learnandroid.galleryandcamera;
 
 import static android.text.Html.fromHtml;
 
@@ -15,7 +15,6 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;

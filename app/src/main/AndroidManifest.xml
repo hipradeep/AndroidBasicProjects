@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
         <activity
-            android:name=".selectandcropimage.TypeImageActivity"
+            android:name=".galleryandcamera.TypeImageActivity"
             android:exported="true" />
         <activity
             android:name=".nestedfragments.NestedFrgmentUsingVP2Activity"

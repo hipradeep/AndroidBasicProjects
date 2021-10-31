@@ -11,7 +11,7 @@ import com.hipradeep.learnandroid.bottomsheet.TypeBottomSheetActivity;
 import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActivity;
 import com.hipradeep.learnandroid.nestedfragments.NestedFragmentsActivity;
 import com.hipradeep.learnandroid.nestedfragments.NestedFrgmentUsingVP2Activity;
-import com.hipradeep.learnandroid.selectandcropimage.TypeImageActivity;
+import com.hipradeep.learnandroid.galleryandcamera.TypeImageActivity;
 import com.hipradeep.learnandroid.viewpagers.ViewPager2Activity;
 import com.hipradeep.learnandroid.viewpagers.ViewPagerWithRecyclerAdapterActivity;
 import com.hipradeep.learnandroid.viewpagers.TypeViewPagerActivity;
