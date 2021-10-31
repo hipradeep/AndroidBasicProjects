@@ -10,6 +10,8 @@ import com.hipradeep.learnandroid.bottomnavigationbar.TypeBottomNavigationViewAc
 import com.hipradeep.learnandroid.bottomsheet.TypeBottomSheetActivity;
 import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActivity;
 import com.hipradeep.learnandroid.nestedfragments.NestedFragmentsActivity;
+import com.hipradeep.learnandroid.nestedfragments.NestedFrgmentUsingVP2Activity;
+import com.hipradeep.learnandroid.selectandcropimage.TypeImageActivity;
 import com.hipradeep.learnandroid.viewpagers.ViewPager2Activity;
 import com.hipradeep.learnandroid.viewpagers.ViewPagerWithRecyclerAdapterActivity;
 import com.hipradeep.learnandroid.viewpagers.TypeViewPagerActivity;
@@ -50,5 +52,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void nestedFragments(View view) {
         startActivity(new Intent(this, NestedFragmentsActivity.class ));
+    }
+    public void nestedVP2Fragments(View view) {
+        startActivity(new Intent(this, NestedFrgmentUsingVP2Activity.class ));
+    }
+
+    public void openImageActivity(View view) {
+        startActivity(new Intent(this, TypeImageActivity.class ));
     }
 }

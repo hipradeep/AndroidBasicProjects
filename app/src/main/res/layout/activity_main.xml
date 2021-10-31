@@ -56,7 +56,8 @@
                    android:onClick="nestedFragments"
                    style="@style/home_button_styles" />
                 <Button
-                   android:text=""
+                   android:text="NestedVP2Fragments"
+                    android:onClick="nestedVP2Fragments"
                    style="@style/home_button_styles" />
 
             </LinearLayout>
@@ -66,7 +67,8 @@
                 android:orientation="horizontal">
 
                <Button
-                   android:text=""
+                   android:text="Image Activity"
+                   android:onClick="openImageActivity"
                    style="@style/home_button_styles" />
                 <Button
                    android:text=""
