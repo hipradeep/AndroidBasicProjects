@@ -1,4 +1,4 @@
-# Project components
+# Project Branches
 
 - [Android Basics](https://github.com/hipradeep/AndroidBasicProjects/tree/androidbasics/app/src/main/java/com/hipradeep/learnandroid/androidbasics)
 - [Drawer Navigation](https://github.com/hipradeep/AndroidBasicProjects/tree/Drawer_Navigation/app/src/main/java/com/hipradeep/learnandroid/drawernavigations)
