@@ -3,9 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable-anydpi/ic_notification_nav.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_border.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_corner.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_exm.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_gradiante.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_ripple.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_android_basics.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_navigation_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_navigation_with_nav_host_fragments.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_buttons.xml" value="0.2359375" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_custom_drawer_navigation.xml" value="0.175" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_drawer_navigation_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_main.xml" value="0.17407407407407408" />

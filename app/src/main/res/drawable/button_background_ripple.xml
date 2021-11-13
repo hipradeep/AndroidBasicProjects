@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorControlHighlight">
+
+    <!-- ripple mask -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+
+            <solid android:color="#aaa" />
+            <corners  android:radius="50dp"/>
+
+        </shape>
+    </item>
+
+    <!-- background shape or color -->
+    <item android:drawable="@drawable/button_background_corner"/>
+
+</ripple>
+
+
+<!--
+
+   ripple mask radius must be same as background shape,
+   here is android:radius="50dp"
+
+
+
+
+
+
+     -->

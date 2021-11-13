@@ -65,4 +65,7 @@
         <item name="android:ellipsize">end</item>
         <item name="android:padding">10dp</item>
     </style>
+    <style name="button_style_exam">
+        <item name="android:background">@drawable/button_background_corner</item>
+    </style>
 </resources>

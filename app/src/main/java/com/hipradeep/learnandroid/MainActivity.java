@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.hipradeep.learnandroid.androidbasics.TypeAndroidBasicsActivity;
 import com.hipradeep.learnandroid.bottomnavigationbar.TypeBottomNavigationViewActivity;
 import com.hipradeep.learnandroid.bottomsheet.TypeBottomSheetActivity;
 import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActivity;
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void androidBasic(View view) {
+        startActivity(new Intent(this, TypeAndroidBasicsActivity.class ));
+
     }
 
     public void viewPagers(View view) {
