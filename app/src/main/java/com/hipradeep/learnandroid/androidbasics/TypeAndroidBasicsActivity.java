@@ -21,4 +21,8 @@ public class TypeAndroidBasicsActivity extends AppCompatActivity {
 
         startActivity(new Intent(this, ButtonsActivity.class ));
     }
+
+    public void onEditText(View view) {
+        startActivity(new Intent(this, EditTextActivity.class ));
+    }
 }

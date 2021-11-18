@@ -30,8 +30,8 @@
                     android:onClick="buttonsExam"
                     style="@style/home_button_styles" />
                 <Button
-                    android:text=""
-
+                    android:text="EditTexts"
+                    android:onClick="onEditText"
                     style="@style/home_button_styles" />
 
             </LinearLayout>

@@ -18,15 +18,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
-
+        <activity
+            android:name=".androidbasics.EditTextActivity"
+            android:exported="true"
+            android:label="@string/title_activity_edit_text"
+            android:theme="@style/Theme.LearnAndroid.NoActionBar" />
         <activity
             android:name=".androidbasics.ButtonsActivity"
-            android:theme="@style/Theme.LearnAndroid_appCompact"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.LearnAndroid_appCompact" />
         <activity
             android:name=".androidbasics.TypeAndroidBasicsActivity"
             android:exported="true" />
-
         <activity
             android:name=".galleryandcamera.TypeImageActivity"
             android:exported="true" />
