@@ -1,7 +1,7 @@
 # Project Branches
 
 - [Android Basics](https://github.com/hipradeep/AndroidBasicProjects/tree/androidbasics/app/src/main/java/com/hipradeep/learnandroid/androidbasics)
-    - Buttons [JAVA](https://github.com/hipradeep/AndroidBasicProjects/tree/androidbasics/app/src/main/java/com/hipradeep/learnandroid/androidbasics) [XML](https://github.com/hipradeep/AndroidBasicProjects/blob/androidbasics/app/src/main/res/drawable/button_background_ripple.xml)
+    - Buttons [JAVA](https://github.com/hipradeep/AndroidBasicProjects/blob/androidbasics/app/src/main/java/com/hipradeep/learnandroid/androidbasics/ButtonsActivity.java) [XML](https://github.com/hipradeep/AndroidBasicProjects/blob/androidbasics/app/src/main/res/layout/activity_buttons.xml)
     - Toggle button [JAVA]() [XML]()
     - Switch [JAVA]() [XML]()
     - Check Box [JAVA]() [XML]()
