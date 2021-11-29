@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.hipradeep.learnandroid.androidbasics.TypeAndroidBasicsActivity;
+import com.hipradeep.learnandroid.asynctaskexam.TypeAsyncTaskActivity;
 import com.hipradeep.learnandroid.bottomnavigationbar.TypeBottomNavigationViewActivity;
 import com.hipradeep.learnandroid.bottomsheet.TypeBottomSheetActivity;
 import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActivity;
@@ -65,5 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void openImageActivity(View view) {
         startActivity(new Intent(this, TypeImageActivity.class ));
+    }
+
+    public void asyncTask(View view) {
+        startActivity(new Intent(this, TypeAsyncTaskActivity.class ));
     }
 }

@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
         <activity
+            android:name=".asynctaskexam.TypeAsyncTaskActivity"
+            android:exported="true" />
+        <activity
             android:name=".androidbasics.EditTextActivity"
             android:exported="true"
             android:label="@string/title_activity_edit_text"
