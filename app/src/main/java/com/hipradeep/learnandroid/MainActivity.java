@@ -14,6 +14,7 @@ import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActi
 import com.hipradeep.learnandroid.nestedfragments.NestedFragmentsActivity;
 import com.hipradeep.learnandroid.nestedfragments.NestedFrgmentUsingVP2Activity;
 import com.hipradeep.learnandroid.galleryandcamera.TypeImageActivity;
+import com.hipradeep.learnandroid.services.TypeServicesActivity;
 import com.hipradeep.learnandroid.viewpagers.ViewPager2Activity;
 import com.hipradeep.learnandroid.viewpagers.ViewPagerWithRecyclerAdapterActivity;
 import com.hipradeep.learnandroid.viewpagers.TypeViewPagerActivity;
@@ -70,5 +71,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void asyncTask(View view) {
         startActivity(new Intent(this, TypeAsyncTaskActivity.class ));
+    }
+
+    public void openService(View view) {
+        startActivity(new Intent(this, TypeServicesActivity.class ));
     }
 }

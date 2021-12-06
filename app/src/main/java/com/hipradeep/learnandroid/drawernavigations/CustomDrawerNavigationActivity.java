@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -36,29 +37,33 @@ public class CustomDrawerNavigationActivity extends AppCompatActivity {
         toolbar.setTitle("pradeep");
 
         //default fragments
-        replaceFragment(new OneFragment(), "Home");
+        replaceFragment(OneFragment.newInstance("Pradeep ", "Maurya"), "Home");
         setDrawerToggle();
 
         setMenuNavigation();
     }
 
     private void setMenuNavigation() {
+
         if (!(currentFragment instanceof OneFragment))
       findViewById(R.id.ll_home).setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
+              Log.e("TAG", "Clicked");
               mDrawerLayout.closeDrawers();
-              replaceFragment(new OneFragment(), "Home");
+              replaceFragment( new OneFragment(), "Home");
           }
       });
         if (!(currentFragment instanceof TwoFragment))
         findViewById(R.id.ll_park).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.e("TAG", "Clicked");
                 mDrawerLayout.closeDrawers();
                 replaceFragment(new TwoFragment(), "Park");
             }
         });
+
         if (!(currentFragment instanceof ThreeFragment))
         findViewById(R.id.ll_setting).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,8 +89,6 @@ public class CustomDrawerNavigationActivity extends AppCompatActivity {
         });
 
     }
-
-
     private void setDrawerToggle() {
         mDrawerToggle = new ActionBarDrawerToggle(CustomDrawerNavigationActivity.this,
                 mDrawerLayout, toolbar, R.string.app_name, R.string.app_name) {
@@ -94,7 +97,6 @@ public class CustomDrawerNavigationActivity extends AppCompatActivity {
                 super.onDrawerClosed(drawerView);
                 Log.e("TAG", "Close");
             }
-
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
@@ -112,6 +114,7 @@ public class CustomDrawerNavigationActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.container, setFragment, title);
+        transaction.addToBackStack(null);
         toolbar.setTitle(title);
         transaction.commitAllowingStateLoss();
         // }, 200);

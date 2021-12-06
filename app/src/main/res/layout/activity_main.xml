@@ -86,7 +86,8 @@
                    android:onClick="openImageActivity"
                    style="@style/home_button_styles" />
                 <Button
-                   android:text=""
+                   android:text="Services"
+                    android:onClick="openService"
                    style="@style/home_button_styles" />
 
             </LinearLayout>
