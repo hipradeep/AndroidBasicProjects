@@ -11,6 +11,7 @@ import com.hipradeep.learnandroid.asynctaskexam.TypeAsyncTaskActivity;
 import com.hipradeep.learnandroid.bottomnavigationbar.TypeBottomNavigationViewActivity;
 import com.hipradeep.learnandroid.bottomsheet.TypeBottomSheetActivity;
 import com.hipradeep.learnandroid.drawernavigations.TypeDrawerNavigationViewActivity;
+import com.hipradeep.learnandroid.neomorphism.NeomorphismActivity;
 import com.hipradeep.learnandroid.nestedfragments.NestedFragmentsActivity;
 import com.hipradeep.learnandroid.nestedfragments.NestedFrgmentUsingVP2Activity;
 import com.hipradeep.learnandroid.galleryandcamera.TypeImageActivity;
@@ -75,5 +76,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void openService(View view) {
         startActivity(new Intent(this, TypeServicesActivity.class ));
+    }
+    public void openNeomorphism(View view) {
+        startActivity(new Intent(this, NeomorphismActivity.class ));
     }
 }

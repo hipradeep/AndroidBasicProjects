@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
         <activity
+            android:name=".neomorphism.NeomorphismActivity"
+            android:exported="true" />
+        <activity
             android:name=".services.RingtoneActivity"
             android:exported="true" />
         <activity
@@ -114,11 +117,8 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
-        </provider>
-
-
-        <!-- Mention the service name here -->
-        <service android:name=".services.svs.RingtoneService"/>
+        </provider> <!-- Mention the service name here -->
+        <service android:name=".services.svs.RingtoneService" />
     </application>
 
 </manifest>

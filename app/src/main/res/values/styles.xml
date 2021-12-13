@@ -68,4 +68,9 @@
     <style name="button_style_exam">
         <item name="android:background">@drawable/button_background_corner</item>
     </style>
+
+    <style name="ShapeAppearance">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">32dp</item>
+    </style>
 </resources>

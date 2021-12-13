@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55B9F3"
+    tools:context=".neomorphism.NeomorphismActivity">
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/button"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:padding="20dp"
+        android:text="Button"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163"
+        app:neumorph_backgroundColor="#55B9F3"
+        app:neumorph_shadowColorDark="#19000000"
+        app:neumorph_shadowColorLight="#28FFFFFF"
+        app:neumorph_shadowElevation="3dp"
+        app:neumorph_shapeAppearance="@style/ShapeAppearance" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--
+    https://fornewid.medium.com/neumorphism-in-android-9cf15e2122dc-->

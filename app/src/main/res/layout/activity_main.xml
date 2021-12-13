@@ -118,6 +118,18 @@
 
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:text="Neomorphism "
+                    android:onClick="openNeomorphism"
+                    style="@style/home_button_styles" />
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
