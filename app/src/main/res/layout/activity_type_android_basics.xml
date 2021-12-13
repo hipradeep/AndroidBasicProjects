@@ -35,6 +35,18 @@
                     style="@style/home_button_styles" />
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:text="Recycler View"
+                    android:onClick="openRecyclerActivity"
+                    style="@style/home_button_styles" />
+
+
+            </LinearLayout>
 
 
         </LinearLayout>

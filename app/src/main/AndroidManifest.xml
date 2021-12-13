@@ -19,6 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
         <activity
+            android:name=".androidbasics.lists.ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".androidbasics.lists.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".androidbasics.EditTextActivity"
             android:exported="true"
             android:label="@string/title_activity_edit_text"
