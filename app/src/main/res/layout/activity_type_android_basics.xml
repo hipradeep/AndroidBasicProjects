@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".androidbasics.TypeAndroidBasicsActivity">
+
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:padding="16dp"
         android:clipToPadding="false"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,58 +21,75 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <Button
-                    android:text="Buttons"
+                    style="@style/home_button_styles"
                     android:onClick="buttonsExam"
-                    style="@style/home_button_styles" />
+                    android:text="Buttons" />
+
                 <Button
-                    android:text="EditTexts"
+                    style="@style/home_button_styles"
                     android:onClick="onEditText"
-                    style="@style/home_button_styles" />
+                    android:text="EditTexts" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <Button
-                    android:text="Recycler View"
+                    style="@style/home_button_styles"
                     android:onClick="openRecyclerActivity"
-                    style="@style/home_button_styles" />
+                    android:text="Recycler View" />
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <Button
-                    android:text="Alert"
+                    style="@style/home_button_styles"
                     android:onClick="openAlertDialogActivity"
-                    style="@style/home_button_styles" />
+                    android:text="Alert" />
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <Button
-                    android:text="Auto Image Slider"
+                    style="@style/home_button_styles"
                     android:onClick="openAutoImageSliderActivity"
-                    style="@style/home_button_styles" />
+                    android:text="Auto Image Slider" />
 
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/home_button_styles"
+                    android:onClick="openOnBoardingActivity"
+                    android:text="On Boarding Screen" />
+
+
+            </LinearLayout>
 
 
         </LinearLayout>

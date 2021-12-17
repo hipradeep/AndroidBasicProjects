@@ -34,7 +34,7 @@ public class AutoImageSliderActivity extends AppCompatActivity {
         sliderDataArrayList.add(R.drawable.undraw_1);
         sliderDataArrayList.add(R.drawable.undraw_2);
         sliderDataArrayList.add(R.drawable.undraw_3);
-
+//        sliderDataArrayList.add(new SliderData(url1));
 //        sliderDataArrayList.add(new SliderData(url1));
 //        sliderDataArrayList.add(new SliderData(url2));
 //        sliderDataArrayList.add(new SliderData(url3));
@@ -52,7 +52,7 @@ public class AutoImageSliderActivity extends AppCompatActivity {
 
         // below method is use to set
         // scroll time in seconds.
-        sliderView.setScrollTimeInSec(3);
+        sliderView.setScrollTimeInSec(1);
 
         // to set it scrollable automatically
         // we use below method.

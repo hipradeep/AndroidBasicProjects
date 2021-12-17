@@ -10,7 +10,7 @@ import com.hipradeep.learnandroid.R;
 import com.hipradeep.learnandroid.androidbasics.alert_n_dialog.AlertAndDialogsActivity;
 import com.hipradeep.learnandroid.androidbasics.autoimageslider.AutoImageSliderActivity;
 import com.hipradeep.learnandroid.androidbasics.lists.RecyclerViewActivity;
-import com.hipradeep.learnandroid.viewpagers.TypeViewPagerActivity;
+import com.hipradeep.learnandroid.androidbasics.onboarding.OnBoardingActivity;
 
 public class TypeAndroidBasicsActivity extends AppCompatActivity {
 
@@ -38,6 +38,10 @@ public class TypeAndroidBasicsActivity extends AppCompatActivity {
 
     public void openAutoImageSliderActivity(View view) {
         startActivity(new Intent(this, AutoImageSliderActivity.class ));
+
+    }
+    public void openOnBoardingActivity(View view) {
+        startActivity(new Intent(this, OnBoardingActivity.class ));
 
     }
 }
