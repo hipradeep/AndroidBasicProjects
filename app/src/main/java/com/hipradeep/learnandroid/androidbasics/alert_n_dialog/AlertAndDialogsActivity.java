@@ -2,6 +2,7 @@ package com.hipradeep.learnandroid.androidbasics.alert_n_dialog;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -11,6 +12,7 @@ import android.view.View;
 import com.hipradeep.learnandroid.R;
 
 public class AlertAndDialogsActivity extends AppCompatActivity {
+    private static final int YES_NO_CALL =10 ;
     Context context=AlertAndDialogsActivity.this;
 
     @Override
@@ -32,5 +34,9 @@ public class AlertAndDialogsActivity extends AppCompatActivity {
                 .setNegativeButton(android.R.string.no, null)
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
+    }
+
+    public void openDialogFragment(View view) {
+//     
     }
 }

@@ -59,6 +59,18 @@
 
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:text="Auto Image Slider"
+                    android:onClick="openAutoImageSliderActivity"
+                    style="@style/home_button_styles" />
+
+
+            </LinearLayout>
 
 
 

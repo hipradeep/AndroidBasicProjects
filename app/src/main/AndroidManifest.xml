@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
         <activity
+            android:name=".androidbasics.autoimageslider.AutoImageSliderActivity"
+            android:exported="false" />
+        <activity
             android:name=".androidbasics.alert_n_dialog.AlertAndDialogsActivity"
             android:exported="false" />
         <activity

@@ -25,18 +25,17 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <Button
-                    android:text="e"
 
-                    style="@style/home_button_styles" />
                 <Button
                     android:text="Alert"
                     android:onClick="onAlertClick"
                     style="@style/home_button_styles" />
+                <Button
+                    android:text=" "
+
+                    style="@style/home_button_styles" />
 
             </LinearLayout>
-
-
 
 
         </LinearLayout>
