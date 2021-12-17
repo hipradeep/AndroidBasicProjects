@@ -59,3 +59,5 @@ public class OnBoardingActivity extends OnboarderActivity {
         Toast.makeText(OnBoardingActivity.this, "Skip", Toast.LENGTH_SHORT).show();
     }
 }
+
+//https://uxplanet.org/16-onboarding-open-source-ui-animation-libraries-swift-java-8e8eda919c96
