@@ -62,6 +62,11 @@
                     android:onClick="openAlertDialogActivity"
                     android:text="Alert" />
 
+                <Button
+                    style="@style/home_button_styles"
+                    android:onClick="openSplashActivity"
+                    android:text="Splash" />
+
 
             </LinearLayout>
 

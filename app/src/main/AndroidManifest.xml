@@ -19,6 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
         <activity
+            android:name=".androidbasics.splashscreen.EmptyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".androidbasics.splashscreen.SimpleSplashScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".androidbasics.onboarding.OnBoardingActivity"
             android:exported="false" />
         <activity

@@ -11,6 +11,7 @@ import com.hipradeep.learnandroid.androidbasics.alert_n_dialog.AlertAndDialogsAc
 import com.hipradeep.learnandroid.androidbasics.autoimageslider.AutoImageSliderActivity;
 import com.hipradeep.learnandroid.androidbasics.lists.RecyclerViewActivity;
 import com.hipradeep.learnandroid.androidbasics.onboarding.OnBoardingActivity;
+import com.hipradeep.learnandroid.androidbasics.splashscreen.SimpleSplashScreenActivity;
 
 public class TypeAndroidBasicsActivity extends AppCompatActivity {
 
@@ -43,5 +44,9 @@ public class TypeAndroidBasicsActivity extends AppCompatActivity {
     public void openOnBoardingActivity(View view) {
         startActivity(new Intent(this, OnBoardingActivity.class ));
 
+    }
+
+    public void openSplashActivity(View view) {
+        startActivity(new Intent(this, SimpleSplashScreenActivity.class ));
     }
 }
