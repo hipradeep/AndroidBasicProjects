@@ -52,12 +52,11 @@
                 android:orientation="horizontal">
 
                <Button
-                   android:text="NestedFragments"
-                   android:onClick="nestedFragments"
+                   android:text="Fragments"
+                   android:onClick="openFragments"
                    style="@style/home_button_styles" />
                 <Button
-                   android:text="NestedVP2Fragments"
-                    android:onClick="nestedVP2Fragments"
+                   android:text=""
                    style="@style/home_button_styles" />
 
             </LinearLayout>
