@@ -10,6 +10,7 @@ import com.hipradeep.learnandroid.R;
 import com.hipradeep.learnandroid.androidbasics.alert_n_dialog.AlertAndDialogsActivity;
 import com.hipradeep.learnandroid.androidbasics.autoimageslider.AutoImageSliderActivity;
 import com.hipradeep.learnandroid.androidbasics.lists.RecyclerViewActivity;
+import com.hipradeep.learnandroid.androidbasics.lists.TypeListsActivity;
 import com.hipradeep.learnandroid.androidbasics.onboarding.OnBoardingActivity;
 import com.hipradeep.learnandroid.androidbasics.splashscreen.SimpleSplashScreenActivity;
 
@@ -26,7 +27,7 @@ public class TypeAndroidBasicsActivity extends AppCompatActivity {
         startActivity(new Intent(this, ButtonsActivity.class ));
     }
     public void openRecyclerActivity(View view) {
-        startActivity(new Intent(this, RecyclerViewActivity.class ));
+        startActivity(new Intent(this, TypeListsActivity.class ));
     }
 
     public void onEditText(View view) {

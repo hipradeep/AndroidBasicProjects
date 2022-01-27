@@ -26,13 +26,16 @@
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_nested_fragments.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_nsted_frgment_using_vp2.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_onbording.xml" value="0.25" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_recycler_view2.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_ringtone.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_simple_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_android_basics.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_async_task.xml" value="0.25" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_bottom_navigation_view.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_bottom_sheet.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_drawer_navigation_bar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_image.xml" value="0.25" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_lists.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_services.xml" value="0.2359375" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_view_pager.xml" value="0.1787037037037037" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/app_bar_main_custom.xml" value="0.25" />
@@ -51,6 +54,7 @@
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/side_nav_menu.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/sldr_item_layout.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/xml/provider_paths.xml" value="0.25" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/item_bg.xml" value="0.2462962962962963" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/nav_menu_bg.xml" value="0.2324074074074074" />

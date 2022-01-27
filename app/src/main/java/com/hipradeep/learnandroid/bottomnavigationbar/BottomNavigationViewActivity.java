@@ -72,7 +72,9 @@ public class BottomNavigationViewActivity extends AppCompatActivity {
                     break;
             }
             return true;
-        });
+        }
+
+        );
     }
 
 
