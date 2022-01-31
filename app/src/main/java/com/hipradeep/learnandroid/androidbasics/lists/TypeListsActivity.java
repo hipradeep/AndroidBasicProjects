@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.hipradeep.learnandroid.R;
 import com.hipradeep.learnandroid.androidbasics.ButtonsActivity;
+import com.hipradeep.learnandroid.androidbasics.lists.v3.RecyclerView3Activity;
 
 public class TypeListsActivity extends AppCompatActivity {
 
@@ -27,5 +28,9 @@ public class TypeListsActivity extends AppCompatActivity {
 
     public void rv2(View view) {
         startActivity(new Intent(this, RecyclerView2Activity.class ));
+    }
+
+    public void rv3(View view) {
+        startActivity(new Intent(this, RecyclerView3Activity.class ));
     }
 }

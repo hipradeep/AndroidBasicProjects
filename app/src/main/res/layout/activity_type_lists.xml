@@ -47,6 +47,10 @@
                     style="@style/home_button_styles"
                     android:onClick="rv2"
                     android:text="RV2" />
+                <Button
+                    style="@style/home_button_styles"
+                    android:onClick="rv3"
+                    android:text="RV3" />
 
             </LinearLayout>
 

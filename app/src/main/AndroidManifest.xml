@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndroid">
         <activity
+            android:name=".androidbasics.lists.v3.RecyclerView3Activity"
+            android:exported="false" />
+        <activity
             android:name=".androidbasics.lists.RecyclerView2Activity"
             android:exported="false" />
         <activity
