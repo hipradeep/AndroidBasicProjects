@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewPagerExample">
         <activity
+            android:name=".bottomnavigationbar.BottomNavigationWithDrawerMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".bottomnavigationbar.BottomNavigationWithNavHostFragmentsActivity"
             android:exported="true" />
         <activity
