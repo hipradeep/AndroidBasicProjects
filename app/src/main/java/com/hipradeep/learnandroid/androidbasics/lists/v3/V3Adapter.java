@@ -39,10 +39,7 @@ public class V3Adapter extends PagerAdapter {
 
     @Override
     public int getCount() {
-
             return list.size();
-
-
     }
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {

@@ -3,66 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable-anydpi/ic_notification_nav.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable-hdpi/dot_selector.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_border.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_corner.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_exm.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_gradiante.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/button_background_ripple.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/default_dot.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/selected_dot.xml" value="0.26153846153846155" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/tab_selector.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_alert_and_dialogs.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_android_basics.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_auto_image_slider.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_navigation_view.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_navigation_with_nav_host_fragments.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_bottom_sheet.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_buttons.xml" value="0.2359375" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_custom_drawer_navigation.xml" value="0.175" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_drawer_navigation_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/bg_activity.xml" value="0.1425" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/default_dot.xml" value="0.1425" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/selected_dot.xml" value="0.1425" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/drawable/tab_selector.xml" value="0.1425" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_auto_image_slider.xml" value="0.24259259259259258" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_edit_text.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_empty.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_list_view.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_main.xml" value="0.17407407407407408" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_neomorphism.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_nested_fragments.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_nsted_frgment_using_vp2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_onbording.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_recycler_view2.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_recycler_view3.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_ringtone.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_simple_splash_screen.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_android_basics.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_async_task.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_bottom_navigation_view.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_bottom_sheet.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_drawer_navigation_bar.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_image.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_lists.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_type_services.xml" value="0.2359375" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_view_pager.xml" value="0.1787037037037037" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/app_bar_main_custom.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.17407407407407408" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/content_edit_text.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/fragment_button.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/fragment_nest.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/fragment_nest_one.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/fragment_nest_two.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/fragment_nest_v_p2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/fragment_one.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/fragment_with_btn.xml" value="0.1787037037037037" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/item.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/rv_item_simple.xml" value="0.24615384615384617" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/side_nav_menu.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/sldr_item_layout.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/vp_item_layout.xml" value="0.24615384615384617" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
-        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/xml/provider_paths.xml" value="0.25" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/activity_recycler_view3.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.25" />
+        <entry key="..\:/Users/duple/AndroidStudioProjects/AndroidPracticeProjects/app/src/main/res/layout/sldr_item_layout.xml" value="0.24259259259259258" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/item_bg.xml" value="0.2462962962962963" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/drawable/nav_menu_bg.xml" value="0.2324074074074074" />
         <entry key="..\:/Users/duple/AndroidStudioProjects/ViewPagerExample/app/src/main/res/layout-land/activity_main.xml" value="0.12083333333333333" />
